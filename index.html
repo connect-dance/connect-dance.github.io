@@ -9,9 +9,89 @@
             content="Connect.Dance West Coast Swing Events"
         />
         <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+            body {
+                font-family: "Inter", sans-serif;
+            }
+            html,
+            body {
+                height: 100%;
+                margin: 0;
+            }
+            body {
+                display: flex;
+                flex-direction: column;
+            }
+            main {
+                flex: 1;
+            }
+        </style>
     </head>
 
-    <body>
-        <h1 class="text-3xl font-bold underline">Connect.Dance</h1>
+    <body class="bg-gray-100 text-gray-900">
+        <header
+            class="bg-gradient-to-r from-blue-500 to-blue-700 text-white p-8"
+        >
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-4xl font-bold">Connect.Dance</h1>
+            </div>
+        </header>
+        <main class="max-w-4xl mx-auto p-4">
+            <h2 class="text-2xl font-medium mt-2 mb-4 text-center">
+                West Coast Swing Events in Aachen
+            </h2>
+            <div class="event-list space-y-8">
+                <div class="event bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600">
+                        KaMi Latino Weihnachtsfeier
+                    </h3>
+                    <p class="text-sm text-gray-600">
+                        Datum: Samstag, 30. November 2024
+                    </p>
+                    <p class="text-sm text-gray-600">
+                        Ort: Ponttor, Pontwall 18, 52062 Aachen
+                    </p>
+                    <p class="text-sm mt-2">
+                        Join us for an exciting night of West Coast Swing
+                        dancing with live music and great company.
+                    </p>
+                    <a
+                        href="https://example.com/wcs-night"
+                        class="text-blue-500 underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 mt-4 inline-block"
+                        >Event Website</a
+                    >
+                </div>
+                <div class="event bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600">
+                        Dance Fusion Aachen Party
+                    </h3>
+                    <p class="text-sm text-gray-600">
+                        Datum: Freitag, 06. Dezember, 2024
+                    </p>
+                    <p class="text-sm text-gray-600">
+                        Ort: Dance Fusion Aachen, Adalbertsteinweg
+                    </p>
+                    <p class="text-sm mt-2">
+                        Learn the basics of West Coast Swing in this
+                        beginner-friendly workshop.
+                    </p>
+                    <a
+                        href="https://example.com/swing-workshop"
+                        class="text-blue-500 underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 mt-4 inline-block"
+                        >Event Website</a
+                    >
+                </div>
+            </div>
+        </main>
+        <footer
+            class="bg-gradient-to-r from-blue-500 to-blue-700 text-white p-8"
+        >
+            <div class="max-w-4xl mx-auto text-center">
+                <p class="text-sm">
+                    &copy; 2024 Connect.Dance. All rights reserved.
+                </p>
+            </div>
+        </footer>
     </body>
 </html>
